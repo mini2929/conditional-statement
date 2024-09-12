@@ -22,3 +22,32 @@ else if (hour >= 16 && hour < 21) {
 else if (hour >= 21 && hour < 24) {
     document.body.style.backgroundColor = "purple"
 }
+
+
+//2
+
+if (hour >= 0 && hour < 10) {
+    document.body.style.backgroundColor = "lightblue"
+}
+
+else if (hour >= 10 && hour < 16) {
+    document.body.style.backgroundColor = "orange"
+}
+
+else if (hour >= 16 && hour < 21) {
+    document.body.style.backgroundColor = "pink"
+}
+
+else {
+    document.body.style.backgroundColor = "purple"
+}
+
+//3
+
+if (hour >= 0 && hour < 10) document.body.style.backgroundColor = "lightblue";
+
+else if (hour >= 10 && hour < 16) document.body.style.backgroundColor = "orange";
+
+else if (hour >= 16 && hour < 21) document.body.style.backgroundColor = "pink";
+
+else document.body.style.backgroundColor = "purple";
